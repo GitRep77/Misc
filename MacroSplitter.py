@@ -3,12 +3,34 @@
 # The grouped results are saved into a file called "MacroGroups.txt".
 
 # How to use this script:
-# 1. Create an "Input.txt" file in the same directory as this script.
+
+# 1. Install Python:
+#    - Go to the official Python website: https://www.python.org/
+#    - Download and install the latest version of Python for your operating system.
+#    - During installation, make sure to check the box that says "Add Python to PATH".
+
+# 2. Create an "Input.txt" file:
+#    - In the same directory where you saved this script, create a file named "Input.txt".
 #    - Each line in "Input.txt" should contain a single macro command or text snippet.
-# 2. Run this script.
-# 3. The script will read the contents of "Input.txt", group the lines into batches that fit within the character limit,
-#    and save the grouped batches into "MacroGroups.txt".
-# 4. Open "MacroGroups.txt" to see the grouped macro commands, which can be copied into separate macros in World of Warcraft.
+
+# 3. Open a command prompt or terminal:
+#    - On Windows, you can open the command prompt by pressing Win + R, typing "cmd", and pressing Enter.
+#    - On macOS, you can open the Terminal application from the Applications/Utilities folder.
+#    - On Linux, you can open a terminal from your applications menu or by pressing Ctrl + Alt + T.
+
+# 4. Navigate to the directory containing this script:
+#    - Use the `cd` command to change directories. For example, if your script is in the "Downloads" folder, you can type:
+#      cd Downloads
+
+# 5. Run the script:
+#    - Type the following command and press Enter:
+#      python your_script_name.py
+#    - Replace "your_script_name.py" with the actual name of your script file.
+
+# 6. Check the output:
+#    - The script will read the contents of "Input.txt", group the lines into batches that fit within the character limit,
+#      and save the grouped batches into "MacroGroups.txt".
+#    - Open "MacroGroups.txt" to see the grouped macro commands, which can be copied into separate macros in World of Warcraft.
 
 # Example:
 # If "Input.txt" contains the following lines:
