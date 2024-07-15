@@ -53,7 +53,8 @@
 # Total lines: 51
 
 # Customizing the Script:
-# To analyze different specs, replace the hardcoded list of strings (strings) with your own list of class specs from World of Warcraft encounters. You can gather these specs from websites like Warcraft Logs: https://www.warcraftlogs.com/
+# To analyze different specs, replace the hardcoded list of strings (strings) with your own list of class specs from World of Warcraft encounters. 
+# You can gather these specs from websites like Warcraft Logs: https://www.warcraftlogs.com/
 
 # Import necessary modules
 from collections import Counter
